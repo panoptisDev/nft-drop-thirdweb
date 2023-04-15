@@ -8,7 +8,7 @@ import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThirdwebProvider desiredChainId={ChainId.Rinkeby}>
+    <ThirdwebProvider desiredChainId={ChainId.Mumbai}>
       <ThemeProvider defaultTheme='dark' attribute='class'>
         <Layout>
           <Component {...pageProps} />
